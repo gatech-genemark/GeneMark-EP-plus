@@ -9,7 +9,7 @@ Tomas Bruna, Alexandre Lomsadze, Mark Borodovsky
 Georgia Institute of Technology, Atlanta, Georgia, USA
 
 
-# Overview
+## Overview
 
 GeneMark-EP+ is a semi-supervised eukaryotic gene prediction tool which
 utilizes protein hints to improve unsupervised parameter estimation and
@@ -28,7 +28,7 @@ a novel genome without the need for a curated training set or a set of
 closely related proteins.
 
 
-# Downloads
+## Downloads
 
 ### Tools
 
@@ -37,9 +37,9 @@ closely related proteins.
 
 ### Experiments
 
-* Project with experiments and evaluation of GeneMark-EP+ and ProtHint is available at https://github.com/gatech-genemark/GeneMark-EP-experiments.
+* Project with experiments and evaluation of GeneMark-EP+ and ProtHint is available at https://github.com/gatech-genemark/GeneMark-EP-ProtHint-exp.
 
-# Usage example
+## Usage example
 
 First run ProtHint to get protein hints (see [ProtHint repository](https://github.com/gatech-genemark/ProtHint) for details about usage and installation)
 
@@ -53,7 +53,7 @@ Run GeneMark-EP+ with hints mapped by ProtHint.
 gmes_petap.pl --EP ProtHintDir/prothint.gff --evidence ProtHintDir/evidence.gff --seq genome.masked.fasta --soft_mask 1000 --verbose
 ```
 
-# Runtime
+## Runtime
 
 Runtime of GeneMark-EP+ is linear with respect to genome size.
 
