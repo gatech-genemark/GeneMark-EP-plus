@@ -1,13 +1,11 @@
 # GeneMark-EP+
 
-_GeneMark-EP and -EP+: automatic eukaryotic gene prediction supported by spliced aligned proteins_
+### Reference
 
-(manuscript submitted for publication, 2019)
-
-Tomas Bruna, Alexandre Lomsadze, Mark Borodovsky
-
-Georgia Institute of Technology, Atlanta, Georgia, USA
-
+_GeneMark-EP+: eukaryotic gene prediction with self-training in the space of genes and proteins_  
+Tomas Bruna, Alexandre Lomsadze, Mark Borodovsky  
+NAR Genomics and Bioinformatics, 2022 Jun [NAR GB](https://academic.oup.com/nargab/article/2/2/lqaa026/5836691), [PubMed](https://pubmed.ncbi.nlm.nih.gov/32440658/)  
+Georgia Institute of Technology, Atlanta, Georgia, USA  
 
 ## Overview
 
